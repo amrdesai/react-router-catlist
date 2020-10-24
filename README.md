@@ -2,7 +2,7 @@
 ### This project was built using React JS and React Router DOM 
 [Visit page](https://minm333.github.io/react-router-catlist)
 
-# About running this build:
+## About running this build:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
