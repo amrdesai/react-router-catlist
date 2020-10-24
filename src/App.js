@@ -1,26 +1,58 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import billu from './assets/images/billu.jpg';
+import tillu from './assets/images/tillu.jpg';
+import gullu from './assets/images/gullu.jpg';
+import Navbar from './components/Navbar';
+import Routes from './Routes';
+
+class App extends Component {
+    static defaultProps = {
+        cats: [
+            {
+                name: 'Billu',
+                age: 5,
+                src: billu,
+                facts: [
+                    'Billu loves eating popcorn.',
+                    'Billu is a naughty cat.',
+                    'Billu wants to cuddle with you!',
+                ],
+            },
+            {
+                name: 'Tillu',
+                age: 3,
+                src: tillu,
+                facts: [
+                    'Tillu has soooo much energy!',
+                    'Tillu is highly intelligent.',
+                    'Tillu loves people more than other cats.',
+                ],
+            },
+            {
+                name: 'Gullu',
+                age: 4,
+                src: gullu,
+                facts: [
+                    "Gullu is not the brightest, he's super lazy.",
+                    'Gullu does not like walks or exercise.',
+                    'Gullu loves eating food.',
+                ],
+            },
+        ],
+    };
+
+    render() {
+        return (
+            <div className="App">
+                <Navbar cats={this.props.cats} />
+                <div className="container">
+                    <Routes cats={this.props.cats} />
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;
