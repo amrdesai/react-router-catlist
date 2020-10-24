@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-router-catlist/static/css/main.bfbffd5e.chunk.css",
+    "main.js": "/react-router-catlist/static/js/main.59b01a95.chunk.js",
+    "main.js.map": "/react-router-catlist/static/js/main.59b01a95.chunk.js.map",
+    "runtime-main.js": "/react-router-catlist/static/js/runtime-main.d0590550.js",
+    "runtime-main.js.map": "/react-router-catlist/static/js/runtime-main.d0590550.js.map",
+    "static/css/2.2a86faee.chunk.css": "/react-router-catlist/static/css/2.2a86faee.chunk.css",
+    "static/js/2.fc4f8f94.chunk.js": "/react-router-catlist/static/js/2.fc4f8f94.chunk.js",
+    "static/js/2.fc4f8f94.chunk.js.map": "/react-router-catlist/static/js/2.fc4f8f94.chunk.js.map",
+    "index.html": "/react-router-catlist/index.html",
+    "precache-manifest.dffa4897ad694d0d4c092db2d4f6a51a.js": "/react-router-catlist/precache-manifest.dffa4897ad694d0d4c092db2d4f6a51a.js",
+    "service-worker.js": "/react-router-catlist/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/react-router-catlist/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.bfbffd5e.chunk.css.map": "/react-router-catlist/static/css/main.bfbffd5e.chunk.css.map",
+    "static/js/2.fc4f8f94.chunk.js.LICENSE.txt": "/react-router-catlist/static/js/2.fc4f8f94.chunk.js.LICENSE.txt",
+    "static/media/billu.jpg": "/react-router-catlist/static/media/billu.ae8da46c.jpg",
+    "static/media/gullu.jpg": "/react-router-catlist/static/media/gullu.c389e6b5.jpg",
+    "static/media/tillu.jpg": "/react-router-catlist/static/media/tillu.8aba2585.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0590550.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.fc4f8f94.chunk.js",
+    "static/css/main.bfbffd5e.chunk.css",
+    "static/js/main.59b01a95.chunk.js"
+  ]
+}
