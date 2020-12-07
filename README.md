@@ -1,6 +1,6 @@
 # Cat List App
 ### This project was built using React JS and React Router DOM 
-## [View page](https://minm333.github.io/react-router-catlist)
+## [View page](https://amrdesai.github.io/react-router-catlist)
 
 ## About running this build:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
